@@ -1,22 +1,31 @@
-Hello Alex!
-new line.
 
-dubl line.
+Hello Al Bo!
 
-triple line.
 
-s site 15:41
+#######################################
+# Пример:
+# Чтобы скачать этот репозиторий	
+#######################################
+pwd
+ls -l
+mkdir albo_proverka
+cd albo_proverka
+git init
+git remote add origin git@github.com:aboltykhov/albo_proverka.git
+git pull origin master && ls -l
 
-s PC 17:28
+#######################################
+# Пример:
+# Чтобы отправить
+#######################################
+pwd
+ls -l
+git add .
+git commit -m "Добавлена инструкция для репозитория albo_proverka"
+git branch -M master 
+git push -u origin master 
 
-na sledyuschiy den 12:09
--------------------------------
-
-cherez nedelu 28.11.2019 
-
-cherez nedelu 28.11.2019 12:12
-
-cherez nedelu 28.11.2019 14:27
-
-cherez nedelu 02.12.2019 11:06
-
+#######################################
+# И т.д.
+#
+#######################################
